@@ -71,6 +71,19 @@ namespace DeskHeight.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to CREATE TABLE Setup (DbVersion INTEGER, SitCalMin INTEGER, StandCalMin INTEGER);
+        ///INSERT INTO Setup (DbVersion, SitCalMin, StandCalMin) VALUES(1, 155, 207);
+        ///CREATE TABLE Today (TodayID INTEGER PRIMARY KEY AUTOINCREMENT, EventID INTEGER, EventTime DATETIME);
+        ///CREATE TABLE History (HistoryID INTEGER PRIMARY KEY AUTOINCREMENT, HistoryDay DATE, LoggedInHours REAL, DeskDown REAL, DeskUp REAL, CalSitting REAL, CalStanding REAL);
+        ///CREATE TABLE Temperatures (TempID INTEGER PRIMARY KEY AUTOINCREMENT, TempF INTEGER,  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string createTables_0001 {
+            get {
+                return ResourceManager.GetString("createTables_0001", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
         internal static System.Drawing.Icon DeskDown {
